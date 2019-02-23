@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ac2949a4-0528-451b-800a-fae91de7bac0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50984/srvSuma.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="srvSuma.xsd" MetadataType="Schema" ID="c008b127-7fe0-4547-85fc-89eb64c8c0f1" SourceId="1" SourceUrl="http://localhost:50984/srvSuma.svc?xsd=xsd1" />
+    <MetadataFile FileName="srvSuma.disco" MetadataType="Disco" ID="0d43ae18-ac2d-4487-89f3-1a00984a305e" SourceId="1" SourceUrl="http://localhost:50984/srvSuma.svc?disco" />
+    <MetadataFile FileName="srvSuma1.xsd" MetadataType="Schema" ID="164610f1-767c-4374-8183-e1e9c2b75e90" SourceId="1" SourceUrl="http://localhost:50984/srvSuma.svc?xsd=xsd0" />
+    <MetadataFile FileName="srvSuma2.xsd" MetadataType="Schema" ID="0e1b9eda-b503-47a4-b655-561713ea8825" SourceId="1" SourceUrl="http://localhost:50984/srvSuma.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="d03aa988-e691-406f-825b-c4b512fb3765" SourceId="1" SourceUrl="http://localhost:50984/srvSuma.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
